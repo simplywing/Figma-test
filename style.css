@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(32,35,48);
+    width: 100%;
+    height: 100vh;
+}
+
+#SIMPLYWING{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: fill 0.5s ease forwards 3.5s;
+}
+
+
+#SIMPLYWING path:nth-child(1) {
+    stroke-dasharray: 494px;
+    stroke-dashoffset: 494px;
+    animation: line-anim 2s ease forwards;
+}
+#SIMPLYWING path:nth-child(2) {
+    stroke-dasharray: 227px;
+    stroke-dashoffset: 227px;
+    animation: line-anim 2s ease forwards 0.3s;
+}
+#SIMPLYWING path:nth-child(3) {
+    stroke-dasharray: 755px;
+    stroke-dashoffset: 755px;
+    animation: line-anim 2s ease forwards 0.6s;
+}
+#SIMPLYWING path:nth-child(4) {
+    stroke-dasharray: 450px;
+    stroke-dashoffset: 450px;
+    animation: line-anim 2s ease forwards 0.9s;
+}
+#SIMPLYWING path:nth-child(5) {
+    stroke-dasharray: 298px;
+    stroke-dashoffset: 298px;
+    animation: line-anim 2s ease forwards 1.2s;
+}
+#SIMPLYWING path:nth-child(6) {
+    stroke-dasharray: 373px;
+    stroke-dashoffset: 373px;
+    animation: line-anim 2s ease forwards 1.5s;
+}
+#SIMPLYWING path:nth-child(7) {
+    stroke-dasharray: 802px;
+    stroke-dashoffset: 802px;
+    animation: line-anim 2s ease forwards 1.8s;
+}
+#SIMPLYWING path:nth-child(8) {
+    stroke-dasharray: 227px;
+    stroke-dashoffset: 227px;
+    animation: line-anim 2s ease forwards 2.1s;
+}
+#SIMPLYWING path:nth-child(9) {
+    stroke-dasharray: 605px;
+    stroke-dashoffset: 605px;
+    animation: line-anim 2s ease forwards 2.4s;
+}
+#SIMPLYWING path:nth-child(10) {
+    stroke-dasharray: 635.71380615px;
+    stroke-dashoffset: 635.71380615px;
+    animation: line-anim 2s ease forwards 2.7s;
+}
+
+@keyframes line-anim{
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes fill{
+    from{
+        fill: transparent;
+    }
+    to{
+        fill: white;
+    }
+}
